@@ -37,16 +37,16 @@ a = 10 + 20j
 type(a)
 b = 10 + 20j
 id(a)
-id(b)   # IDs of Complex (even with same values) will always be different
+id(b)  # IDs of Complex (even with same values) will always be different
 
-#9
-a="hello"   #same as a='hello'
-b="hello"
+# 9
+a = "hello"  # same as a='hello'
+b = "hello"
 id(a)
-id(b)   #IDs of string will be same when no collection occurs
+id(b)  # IDs of string will be same when no collection occurs
 
-#10
-a="a b"
-b="a b"
+# 10
+a = "a b"
+b = "a b"
 id(a)
-id(b)   #IDs of string are different when collection occurs
+id(b)  # IDs of string are different when collection occurs
